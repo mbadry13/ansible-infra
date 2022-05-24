@@ -1,0 +1,6 @@
+---
+- name: Running step8
+  hosts: 172.25.0.2
+  become: true
+  roles:
+    - role: step8

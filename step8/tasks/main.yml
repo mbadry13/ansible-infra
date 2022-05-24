@@ -1,0 +1,4 @@
+---
+- name: Destroy the current template
+  command: "ls -l"
+  register: command_result
